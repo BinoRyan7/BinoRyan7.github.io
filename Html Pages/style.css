@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: gold;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover {
+  color: navy;
+}
+
+a:link{
+    background-color: gray
+}
