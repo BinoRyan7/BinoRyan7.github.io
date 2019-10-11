@@ -30,3 +30,29 @@ nav td{
 nav td:hover{
     background-color: rgba(0,0,0,.1);
 }
+
+section{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    background-color: #F1F3F4;
+    padding 16px;
+    margin-top: 5px;
+}
+
+section tr{
+    height: 24px;
+    line-height: 24px;
+}
+
+section tr:hover{
+    background-color: rgba(0,0,0,.03);
+}
+
+section td{
+min-width: 30px;
+    align-content: center;
+}
