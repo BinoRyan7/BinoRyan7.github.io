@@ -1,4 +1,14 @@
-    .content-card{
+   table{
+        position: sticky;
+        bottom: 0px;
+        margin: auto;
+        z-index: 11;
+        vertical-align: middle;
+        font-size: 50px;
+        color: darkslategray;
+    }   
+
+.content-card{
             width: 290px;
             height: 370px;
             margin-left: 5px;
@@ -85,3 +95,13 @@
         margin: auto;
         
     }
+    
+    a{
+        color: darkslategray;
+        text-decoration: none;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+ 
