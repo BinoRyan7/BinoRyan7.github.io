@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+    <style>
+        #tweet-container{
+            max-width: 600px;
+            width: 100%;
+            margin: auto;
+            border: solid lightgray 1px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #tweet-profile{
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start;
+        }
+        
+        #profile-info{
+            margin-left: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        #profile-hash{
+            color: gray;
+        }
+        
+        #down-arrow{
+            width: 100px;
+            margin-left: 310px;
+            display: flex;
+            justify-content: flex-end;
+            vertical-align: top;
+        }
+        
+        #tweet-text{
+            margin: 10px;
+            color: gray;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        
+        #tweet-pic{
+            display: flex;
+            justify-content: center;
+        }
+        
+        #tweet-meta-info{
+            margin: 6px;
+            color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        
+        #icons{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tweet-container">
+        <div id="tweet-profile">
+            <img src="PageImages/tweet-profile-pic.PNG" style="height: 70px; width: 70px;">
+            
+            <div id="profile-info">
+                <div id="profile-name"> AUDL <img src="PageImages/verified.png" style="height: 18px; width: 18px;"></div>
+                    
+                <div id="profile-hash">@theAUDL</div>
+            </div>
+            <div id="down-arrow"><img src="PageImages/down-arrow.svg" style="height: 15px; width: 15px;"></div>
+        </div>
+        
+        <div id="tweet-text">
+            <div>Them: not a sport</div>
+            
+            <div>Us: </div>
+        </div>
+        
+        <div id="tweet-pic"><img src="PageImages/tweet-pic.jpg" style="height: 400px; width: 580px;"></div>
+        
+        <div id="tweet-meta-info">
+            <div>8:41 AM Nov 3, 2019</div> <div style="margin-left:10px; color: skyblue">Twitter Web App</div>
+        </div>
+        
+        <div id="tweet-meta-info">
+            <div><b>32</b> Retweets</div> <div style="margin-left:10px;"><b>249</b> Likes</div>
+        </div>
+        
+        <div id="icons"> 
+            <div><img src="PageImages/reply.PNG" style="height: 22px; width: 22px;"></div>
+            <div><img src="PageImages/retweet.PNG" style="height: 22px; width: 22px;"></div>
+            <div><img src="PageImages/like.PNG" style="height: 22px; width: 22px;"></div>
+            <div><img src="PageImages/msg.PNG" style="height: 22px; width: 22px;"></div>
+        </div>
+        
+    </div>
+</body>
+</html>

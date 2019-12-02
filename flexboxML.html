@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <style>
+        .sidebar {
+            background-color: gainsboro;
+            width: 150px;
+            height: 100%;
+            float: left;
+            position: sticky;
+
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .text:hover {
+            background-color: whitesmoke;
+
+        }
+
+        .search-img {
+            margin: auto;
+            height: 25px;
+            width: 25px;
+        }
+
+
+
+        .text {
+            color: black;
+            font-size: 15px;
+            margin-bottom: 25px;
+            font-family: 'Heebo', sans-serif;
+            position: sticky;
+        }
+
+        .main-container {
+            height: 750px;
+        }
+
+        .page-content {
+            margin-left: 150px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .top-bar {
+            width 100%;
+            background-color: darkgrey;
+            height: 40px;
+            
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .nav-img{
+            width: 35px;
+            height: 30px;
+            margin-top: 5px;
+            
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="sidebar">
+            <div style="font-size: 30px; font-family: 'Archivo Black', sans-serif;"><b>haus</b></div>
+
+            <div>
+                <img class="search-img" src="PageImages/searchIcon.jpg">
+                <div class="text">Furniture</div>
+                <div class="text">Lighting</div>
+                <div class="text">Accessories</div>
+                <div class="text">Brands</div>
+                <div class="text">Clearance</div>
+            </div>
+
+            <div>
+                <div class="text">Trade sales</div>
+                <div class="text">About</div>
+                <div class="text">Contact</div>
+                <div class="text">Delivery</div>
+            </div>
+        </div>
+
+        <div class="top-bar">
+            <img  class="nav-img"src="PageImages/phoneIcon.png">
+            <img style="width: 35px; height: 25px;margin-top: 5px;"src="PageImages/personIcon.png">
+        </div>
+    </div>
+
+
+
+    <div class="page-content">
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .topbar {
+            background-color: white;
+            position: fixed;
+            height: 5vh;
+            width: 85%;
+            margin-left: 15%;
+
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .topbar img {
+            margin-right: 5px;
+            width: 40px;
+            height: 20px;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            background-color: lightgrey;
+            width: 15%;
+            height: 100vh;
+            position: fixed;
+            float: left;
+        }
+
+        .content {
+            margin-left: 15%;
+            width: 85%;
+        }
+
+        .bigimg {
+            width: 100%;
+            height: 90vh;
+        }
+
+        .bottom-sidebar-text {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            margin-left: 45px;
+            margin-bottom: 5px;
+            color: grey
+        }
+
+        .bottom-sidebar-text:hover {
+            background-color: whitesmoke;
+        }
+
+        .top-sidebar-text {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            margin-left: 45px;
+            margin-bottom: 5px;
+        }
+
+        .top-sidebar-text:hover {
+            background-color: whitesmoke;
+        }
+
+        .itemrow1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .itemrow1 img {
+            height: 40%;
+        }
+
+        .whitebox {
+            height: 5vh;
+            width: 100%;
+
+            background-color: white;
+        }
+
+        .orangebox {
+            height: 20vh;
+            width: 100%;
+
+            background-color: orangered;
+        }
+
+        .box1 {
+            display: flex;
+            justify-content: space-between;
+            padding: 5%;
+            flex-wrap: wrap;
+        }
+
+        .box1 img {
+            height: 40vh;
+        }
+
+        .bluebox {
+            height: 20vh;
+            width: 100%;
+
+            background-color: dodgerblue;
+        }
+
+        .box {
+            display: flex;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div>
+            <div style="font-family: 'Roboto', sans-serif; font-size: 70px; margin-left: 45px;"><b>haus</b></div>
+        </div>
+
+        <div>
+            <div class="top-sidebar-text">Furniture</div>
+            <div class="top-sidebar-text">Lighting</div>
+            <div class="top-sidebar-text">Accessories</div>
+            <div class="top-sidebar-text">Brands</div>
+            <div class="top-sidebar-text">Clearance</div>
+        </div>
+
+        <div>
+            <div class="bottom-sidebar-text">Trade Sales</div>
+            <div class="bottom-sidebar-text">About</div>
+            <div class="bottom-sidebar-text">Contact</div>
+            <div class="bottom-sidebar-text">Delivery</div>
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+    </div>
+
+    <div class="topbar">
+        <img src="hausLondon5.png">
+        <img src="hausLondon4.png">
+        <img src="hausLondon3.png">
+        <img src="HausLondon2.jpg">
+    </div>
+
+
+    <div class="content">
+        <img class="bigimg" src="HausLondon1.jpg">
+        <div style="font-family: 'Roboto', sans-serif; font-size: 90px; top: 50%; left: 50%; position: absolute; color: white;">Shop Now</div>
+
+        <div class="whitebox"></div>
+
+        <div class="itemrow1">
+            <img src="HausLondon6.jpg">
+            <img src="HausLondon7.jpg">
+            <img src="HausLondon8.jpg">
+            <img src="HausLondon9.jpg">
+        </div>
+
+        <div class="orangebox" style="color: white; font-size: 60px; font-family: 'Roboto', sans-serif; text-align: center; line-height: 200px;">Save on clearance offers</div>
+
+        <div>
+            <img src="HausLondon10.jpg" style="width: 100%; height: 85vh;">
+            <div style="font-family: 'Roboto', sans-serif; font-size: 90px; top: 1750px; left: 45%;  position:absolute; color: white; z-index: 10;">String Shelving</div>
+        </div>
+
+        <div class="box1">
+            <img src="HausLondon11.jpg" style="height: 40vh;">
+            <img src="HausLondon12.jpg" style=" height: 40vh;">
+            <img src="HausLondon13.jpg" style=" height: 40vh;">
+            <img src="HausLondon14.jpg" style=" height: 40vh;">
+            <img src="HausLondon15.jpg" style=" height: 40vh;">
+            <img src="HausLondon16.jpg" style=" height: 40vh;">
+        </div>
+
+        <div class="bluebox" style="color: white; font-size: 60px; font-family: 'Roboto', sans-serif; text-align: center; line-height: 200px;">Free UK Parcel Delivery Over £100</div>
+
+        <div class="box">
+            <div>
+                <img src="HausLondon17.jpg" style="height: 65vh;">
+                <div style="width: 40%; color: white; font-size: 50px; font-family: 'Roboto', sans-serif; text-align: center; line-height: 200px; top: 3600px; position:absolute;">Our Shop</div>
+            </div>
+
+            <div>
+                <img src="HausLondon18.jpg" style="height: 65vh;">
+                <div style="width: 40%; color: white; font-size: 50px; font-family: 'Roboto', sans-serif; text-align: center; line-height: 200px; top: 3600px; position:absolute;">Trade and Contact Sales</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
